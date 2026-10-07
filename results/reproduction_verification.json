@@ -1,0 +1,18 @@
+{
+  "measurement_rows_preserved": 30,
+  "numerical_regression": "passed",
+  "conservation_and_association_cycles": "passed",
+  "figure_data_hashes": "passed",
+  "figure_exports": 20,
+  "print_widths_mm": {
+    "fig1_screening_regimes": 83.0,
+    "fig2_coion_sorption": 171.0,
+    "fig3_residuals": 171.0,
+    "fig4_identifiability": 83.0,
+    "fig5_dle": 171.0
+  },
+  "minimum_text_pt": 9,
+  "font_family": "Nimbus Sans",
+  "raster_dpi": 600,
+  "layout_bounds": "passed"
+}

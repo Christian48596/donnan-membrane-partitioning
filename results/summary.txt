@@ -1,0 +1,61 @@
+EQUILIBRIUM MEMBRANE PARTITIONING
+========================================================================
+30 sorption measurements. Fixed charge 3.19-4.69 M.
+RMS log residual: ideal 4.9284; Manning 2.1402.
+Largest ideal underprediction: 2849.7.
+
+Series residuals (conditional association and equal-association published closure):
+                  ideal_mean  manning_mean  paired_mean  published_equal_alpha_mean  alpha_min  alpha_max
+membrane  salt                                                                                           
+Nafion117 NaCl       +1.9802       +0.0096          NaN                         NaN        NaN        NaN
+          MgCl2      +0.4220       -0.6649          NaN                         NaN        NaN        NaN
+          Na2SO4     +6.1346       +1.1878      -0.0555                     +0.3327    +0.2795    +0.7830
+CR-61     Na2SO4     +6.1021       +2.1015      +0.6417                     +1.1276    +0.2795    +0.7830
+Nafion117 MgSO4      +5.8811       +3.1107      -0.2235                     +0.7052    +0.4090    +0.6880
+CR-61     MgSO4      +5.5219       +3.2487      -0.5069                     +0.5824    +0.4090    +0.6880
+
+Mobile ionic strength excludes immobile polymer groups:
+Fully dissociated reconstruction 1.596-5.868 M.
+Conservative sulfate-association lower bound 1.595 M.
+I*=1.02562 M is a dilute-screening diagnostic, not a decay measurement.
+
+The MgCl2 density uses a constant apparent molar volume (19.77 mL/mol),
+anchored to Zezin 2014 SI Table 1S; other densities use Sujanani 2023 SI S2.
+Pitzer parameter values are defined in hpm/pitzer.py; MgSO4 +/-15%
+is an illustrative input sensitivity, not a statistically calibrated interval.
+
+Identifiability: real co-ion measurements and hypothetical independent counter-ions:
+                          panel  variance_df_uncertain  power_baseline_exact  power_baseline_uncertain
+         Nafion coions: 3 salts                      0                   NaN                       NaN
+         Nafion coions: + MgSO4                      0                   NaN                       NaN
+       CR-61 coions: 2 sulfates                      0                   NaN                       NaN
+Prospective both signs: 3 salts                      4              0.886667                     0.246
+Prospective both signs: + MgSO4                      4              0.972000                     0.930
+NaN denotes an undefined variance test. The source papers report counter-ion contents.
+Residuals conditional on charge derived from those contents require joint uncertainty
+propagation rather than independent-noise assumptions. The simulation assumes matched
+external I grids, common response functions and independent Gaussian residual noise.
+
+Association uses free-species Truesdell-Jones activities, not parent-salt Pitzer.
+Default alpha is conductivity-derived; statewise K_a is not a verified universal constant.
+Neutral MgSO4 gamma=1 and unit transfer are assumed. Charged NaSO4- shares one
+Donnan potential and charge balance. Both phase equilibrium cycles are checked.
+Published comparator: SI S57/S70 with equal alpha in both phases; this does not
+reproduce fitted membrane fractions or constitute validation against sulfate model tables.
+Mixed residual signs show that a positive variance term ALONE is insufficient;
+they do not exclude variance in combination with baseline, transfer or speciation errors.
+
+NaCl comparison with the published fully dissociated model:
+ membrane  c_ext  experiment  published_model  published_raw  apparent_table_typo_corrected  published_association_model  our_model   ratio charge_input_status
+Nafion117   0.01     0.00023         0.000173       0.000173                          False                       0.0002   0.000173       1      charge_balance
+Nafion117   0.03      0.0012          0.00136        0.00136                          False                      0.00161   0.001299 0.95517      charge_balance
+Nafion117    0.1      0.0116           0.0122         0.0122                          False                       0.0144    0.01168 0.95738      charge_balance
+Nafion117    0.3      0.0857            0.078          0.078                          False                       0.0867   0.080177  1.0279      charge_balance
+Nafion117      1       0.351            0.424          0.424                          False                        0.464    0.43621  1.0288      charge_balance
+    CR-61   0.01    0.000286         0.000126       0.000126                          False                     0.000149 0.00013482    1.07      approximate_3M
+    CR-61   0.03     0.00146            0.001          0.001                          False                      0.00122  0.0010768  1.0768      approximate_3M
+    CR-61    0.1      0.0103           0.0092          0.092                           True                       0.0113   0.009859  1.0716      approximate_3M
+    CR-61    0.3       0.061           0.0608         0.0608                          False                       0.0703   0.067027  1.1024      approximate_3M
+    CR-61      1       0.372            0.382          0.382                          False                        0.423    0.41941  1.0979      approximate_3M
+CR-61 0.1 M source entry is 0.092; the adopted 0.0092 value is a possible decimal-error
+interpretation, not an author-confirmed correction. CR-61 charge input 3 M is approximate.

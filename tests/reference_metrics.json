@@ -1,0 +1,12 @@
+{
+  "n_measurements": 30,
+  "rms_log_ideal": 4.9284187845053244,
+  "rms_log_manning": 2.140249822523829,
+  "largest_ideal_underprediction": 2849.7226987982676,
+  "mobile_I_min_M": 1.5958180000000002,
+  "mobile_I_max_M": 5.868,
+  "mobile_I_association_bound_min_M": 1.5950000000000002,
+  "crossover_M": 1.0256150701391833,
+  "max_charge_error_M": 8.881784197001252e-16,
+  "max_association_cycle_relative_error": 2.220446049250313e-15
+}

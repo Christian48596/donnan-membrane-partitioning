@@ -1,0 +1,6 @@
+panel,prospective_independent_counterions,n_measurements,rank_without_mu,rank_with_mu,cond_without_mu,cond_with_mu,counter_ion_valence_contrast,full_design_rank,full_design_columns,variance_added_rank,psi2_identifiable_given_baseline_error,power_baseline_exact,power_baseline_uncertain,variance_df_exact,variance_df_uncertain,residual_df_uncertain,I_min_external_M,I_max_external_M,sigma_log_residual,n_I,n_trials,seed,note
+Nafion coions: 3 salts,False,3,2,3,inf,inf,True,14,18,0,False,,,0,0,1,0.1,6.0,0.1,5,1500,0,hypothetical matched external-I grid; not observed-data power
+Nafion coions: + MgSO4,False,4,2,3,inf,inf,True,14,18,0,False,,,0,0,6,0.1,6.0,0.1,5,1500,0,hypothetical matched external-I grid; not observed-data power
+CR-61 coions: 2 sulfates,False,2,1,2,inf,inf,True,9,17,0,False,,,0,0,1,0.1,6.0,0.1,5,1500,0,hypothetical matched external-I grid; not observed-data power
+Prospective both signs: 3 salts,True,6,3,4,9.635084489865166,20.601197777430738,True,20,20,4,True,0.8866666666666667,0.246,4,4,10,0.1,6.0,0.1,5,1500,0,hypothetical matched external-I grid; not observed-data power
+Prospective both signs: + MgSO4,True,8,3,4,12.306765842152013,13.57076685183882,True,20,20,4,True,0.972,0.93,4,4,20,0.1,6.0,0.1,5,1500,0,hypothetical matched external-I grid; not observed-data power

@@ -1,0 +1,66 @@
+[1/7] Scientific tests
+test_apparent_charge_recovers_known_ideal_and_flags_opposite_sign (test_theory.ActivityAndCharge.test_apparent_charge_recovers_known_ideal_and_flags_opposite_sign) ... ok
+test_crossover_is_debye_inverse (test_theory.ActivityAndCharge.test_crossover_is_debye_inverse) ... ok
+test_material_ionic_strength (test_theory.ActivityAndCharge.test_material_ionic_strength) ... ok
+test_molal_to_molar_activity_identity (test_theory.ActivityAndCharge.test_molal_to_molar_activity_identity) ... ok
+test_negative_concentrations_rejected (test_theory.ActivityAndCharge.test_negative_concentrations_rejected) ... ok
+test_species_donnan_charge_and_neutral_transfer (test_theory.ActivityAndCharge.test_species_donnan_charge_and_neutral_transfer) ... ok
+test_available_coions_do_not_gain_an_independent_variance_direction (test_theory.IdentifiabilityAndMoments.test_available_coions_do_not_gain_an_independent_variance_direction) ... ok
+test_closed_moments_and_exact_partition_match_independent_quadrature (test_theory.IdentifiabilityAndMoments.test_closed_moments_and_exact_partition_match_independent_quadrature) ... ok
+test_fixed_counterion_valence_variance_is_confoundable (test_theory.IdentifiabilityAndMoments.test_fixed_counterion_valence_variance_is_confoundable) ... ok
+test_prospective_full_panel_and_false_positive_rate (test_theory.IdentifiabilityAndMoments.test_prospective_full_panel_and_false_positive_rate) ... ok
+test_exchange_inversion_and_energy (test_theory.LithiumExchange.test_exchange_inversion_and_energy) ... ok
+test_feed_and_salt_dependent_asymptote (test_theory.LithiumExchange.test_feed_and_salt_dependent_asymptote) ... ok
+test_finite_bath_element_conservation_and_lithium_inventory (test_theory.LithiumExchange.test_finite_bath_element_conservation_and_lithium_inventory) ... ok
+test_unselective_and_free_preference_limits (test_theory.LithiumExchange.test_unselective_and_free_preference_limits) ... ok
+test_activity_limits_and_condensation_domain (test_theory.ManningEquilibrium.test_activity_limits_and_condensation_domain) ... ok
+test_general_neutral_salt_product_and_charge (test_theory.ManningEquilibrium.test_general_neutral_salt_product_and_charge) ... ok
+test_primary_denominator_and_coefficients (test_theory.ManningEquilibrium.test_primary_denominator_and_coefficients) ... ok
+test_binary_limit_of_general_manning (test_theory.SulfateSpecies.test_binary_limit_of_general_manning) ... ok
+test_distinct_mass_action_stoichiometry (test_theory.SulfateSpecies.test_distinct_mass_action_stoichiometry) ... ok
+test_external_element_and_charge_balances (test_theory.SulfateSpecies.test_external_element_and_charge_balances) ... ok
+test_neutrality_does_not_impose_unit_partition (test_theory.SulfateSpecies.test_neutrality_does_not_impose_unit_partition) ... ok
+test_species_equilibrium_charge_and_association_cycles (test_theory.SulfateSpecies.test_species_equilibrium_charge_and_association_cycles) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.135s
+
+OK
+[2/7] Equilibrium sorption and association
+Computed 30 sorption observations. RMS log residual: ideal 4.9284; Manning 2.1402.
+Saved equilibrium, association, ionic-strength and design results to results/.
+[3/7] Fixed-charge calibration and transfer
+NaCl reference: charge balance 3.95977 M; apparent charge 0.35337 M.
+Saved signed charge fits, MgCl2 transfer predictions and equal-valence checks to results/.
+[4/7] Lithium/sodium exchange
+CONDITIONAL Li/Na EXCHANGE ILLUSTRATIONS (no lithium validation)
+q=Gamma_f=1, reservoir y is fixed, condensed capacity theta*C_A.
+alpha_inf=1+w/[y(1-w)], w=theta*C_A/(C_A+c_coion).
+xi=1.83: equimolar/negligible-coion asymptote 2.66; y=.01 asymptote 84; equimolar, c_coion/C_A=.5 asymptote 1.87.
+xi=3.1: equimolar/negligible-coion asymptote 5.2; y=.01 asymptote 211; equimolar, c_coion/C_A=.5 asymptote 2.65.
+Nafion xi=3.1, y=.5, no coions, target 2: DeltaG_ex^standard=-2.671 kJ/mol.
+Nafion xi=3.1, y=.5, no coions, target 3: DeltaG_ex^standard=-4.692 kJ/mol.
+Nafion xi=3.1, y=.5, no coions, target 5: DeltaG_ex^standard=-11.969 kJ/mol.
+These are hypothesis-dependent reservoir limits, not universal membrane ceilings.
+[5/7] Spatial-average approximation checks
+APPROXIMATION CHECKS (illustrative potential profile)
+ z_psi_surface  ln_K_exact  ln_K_second_cumulant  relative_error_percent
+           1.0    0.078620              0.081966                4.255643
+           2.0    0.322863              0.355210               10.018801
+           4.0    1.168836              1.475534               26.239579
+           6.0    2.295169              3.360970               46.436679
+           8.0    3.560859              6.011519               68.822150
+Full molality-to-concentration conversion includes standard-state rescaling.
+Largest absolute log salt-product shift, argument only: 0.034484.
+Largest absolute shift, full conversion: 0.093307.
+[6/7] Figure data and artwork
+  exported 9 numerical figure tables to /Users/christian.tantardini/WORK/_python-scripts/donnan-membrane-partitioning/figures/source_data
+  wrote fig1_screening_regimes: fig1_screening_regimes.pdf, fig1_screening_regimes.svg, fig1_screening_regimes.png, fig1_screening_regimes.tif
+  wrote fig2_coion_sorption: fig2_coion_sorption.pdf, fig2_coion_sorption.svg, fig2_coion_sorption.png, fig2_coion_sorption.tif
+  wrote fig3_residuals: fig3_residuals.pdf, fig3_residuals.svg, fig3_residuals.png, fig3_residuals.tif
+  wrote fig4_identifiability: fig4_identifiability.pdf, fig4_identifiability.svg, fig4_identifiability.png, fig4_identifiability.tif
+  wrote fig5_dle: fig5_dle.pdf, fig5_dle.svg, fig5_dle.png, fig5_dle.tif
+[7/7] Numerical and export verification
+Verified: 30 measurements, numerical regression, conserved charge and association cycles.
+Verified: nine figure-data tables and 20 exports at 83/171 mm, with base text at least 9 pt.
+Reproduction complete. Results: results/. Figures: figures/.
