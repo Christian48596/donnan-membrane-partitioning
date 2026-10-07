@@ -1,0 +1,4 @@
+environment,lower_M,upper_M,basis
+External solution,0.01,4.0,fully dissociated reference
+Nafion117,1.925,5.868,mobile-ion reconstruction with association bounds
+CR-61,1.595,5.204,mobile-ion reconstruction with association bounds

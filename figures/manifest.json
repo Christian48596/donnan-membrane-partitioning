@@ -1,0 +1,365 @@
+{
+  "style": {
+    "double_column_mm": 171,
+    "single_column_mm": 83,
+    "font_family": "Nimbus Sans",
+    "axis_label_pt": 9,
+    "tick_pt": 9,
+    "legend_pt": 9,
+    "text_pt": 9,
+    "panel_label_pt": 11,
+    "minimum_text_pt": 9,
+    "raster_dpi": 600,
+    "formats": [
+      "pdf",
+      "svg",
+      "png",
+      "tif"
+    ]
+  },
+  "figures": [
+    {
+      "stem": "fig1_screening_regimes",
+      "width_mm": 83.0,
+      "height_mm": 85.0,
+      "minimum_text_pt": 9.0,
+      "layout_bounds_check": "passed",
+      "files": [
+        {
+          "path": "fig1_screening_regimes.pdf",
+          "sha256": "00b9469efbc0d73640a13652828cee741b12b26ad57ba5a0e07b46ed91d0a3a7"
+        },
+        {
+          "path": "fig1_screening_regimes.svg",
+          "sha256": "e272b9c886924ec67997d29e952ad890ac3fea9cc0a0aca2ffa7e05e35dc6b50"
+        },
+        {
+          "path": "fig1_screening_regimes.png",
+          "sha256": "d802ccb269564a6df5b1de876b8869bef1d3d0c50fbb78a338153d1fd5faacc0"
+        },
+        {
+          "path": "fig1_screening_regimes.tif",
+          "sha256": "1d6094eef8ab723f906717429a7371df49cce60f60f3cda078de7181efe9265b"
+        }
+      ]
+    },
+    {
+      "stem": "fig2_coion_sorption",
+      "width_mm": 171.0,
+      "height_mm": 226.0,
+      "minimum_text_pt": 9.0,
+      "layout_bounds_check": "passed",
+      "files": [
+        {
+          "path": "fig2_coion_sorption.pdf",
+          "sha256": "a98883198e9ecd8b750cb9c11e452b27c0dc60cdaae629e69faa1e668c82ab1d"
+        },
+        {
+          "path": "fig2_coion_sorption.svg",
+          "sha256": "9e3041228f5eeb2445094438a45e443788d0e936fdec11e70efe4cf4e3535019"
+        },
+        {
+          "path": "fig2_coion_sorption.png",
+          "sha256": "f043a57af9c9351cad26a55bebdfafc2fc312b475799b616c3d09c062a74d13e"
+        },
+        {
+          "path": "fig2_coion_sorption.tif",
+          "sha256": "953562f634eb18cab71e4681ed080732c3e8af206205af87a52bbfe3401ce758"
+        }
+      ]
+    },
+    {
+      "stem": "fig3_residuals",
+      "width_mm": 171.0,
+      "height_mm": 190.0,
+      "minimum_text_pt": 9.0,
+      "layout_bounds_check": "passed",
+      "files": [
+        {
+          "path": "fig3_residuals.pdf",
+          "sha256": "c83b4801ea5d40ac9b2118fe4512e177f199b635412593c3e34571a235a472a1"
+        },
+        {
+          "path": "fig3_residuals.svg",
+          "sha256": "3f1a8aee6c96e24192a6fb41c76ae21b1f4719e846b719a43a80db81bd6a94f8"
+        },
+        {
+          "path": "fig3_residuals.png",
+          "sha256": "333693120fbeb4323895b6d2d1fcc2d00321f2d4447a20aadffebaa6a9c8a9a0"
+        },
+        {
+          "path": "fig3_residuals.tif",
+          "sha256": "aefa147645269343bf4b87dc5dc8ede0b7577b9e7ebab50246ff2fdbb9acfc21"
+        }
+      ]
+    },
+    {
+      "stem": "fig4_identifiability",
+      "width_mm": 83.0,
+      "height_mm": 90.0,
+      "minimum_text_pt": 9.0,
+      "layout_bounds_check": "passed",
+      "files": [
+        {
+          "path": "fig4_identifiability.pdf",
+          "sha256": "aa1942fdc99c61958903e0ae96b635bb65ee556d2b5675a01626efad9676a685"
+        },
+        {
+          "path": "fig4_identifiability.svg",
+          "sha256": "f9953c336452f7b3f52badf1df3f882d62d8c44888d442fdec5e4bee59623e0c"
+        },
+        {
+          "path": "fig4_identifiability.png",
+          "sha256": "16de215c8efd21aa154ded2e1f92d010ff84a2ede1f0acae0c3e5c3aec471cb1"
+        },
+        {
+          "path": "fig4_identifiability.tif",
+          "sha256": "8e7679bca913747527907b4fc7da858c4e510cefa37d755ee77f384643bb0dec"
+        }
+      ]
+    },
+    {
+      "stem": "fig5_dle",
+      "width_mm": 171.0,
+      "height_mm": 190.0,
+      "minimum_text_pt": 9.0,
+      "layout_bounds_check": "passed",
+      "files": [
+        {
+          "path": "fig5_dle.pdf",
+          "sha256": "14a7f73a95b74e8ffb0a4eda3ed2e7d4b0f76eda694bc0304552d41f7e2714ef"
+        },
+        {
+          "path": "fig5_dle.svg",
+          "sha256": "ee8e5058a5cccf7ac369e0ce94fe676100288b824d682fa498e0126fb9ce819d"
+        },
+        {
+          "path": "fig5_dle.png",
+          "sha256": "fba2f88687fbbe7056b0b18c8af4e3426a684f05960a3ec2ab4c1a914241a30e"
+        },
+        {
+          "path": "fig5_dle.tif",
+          "sha256": "41d29a782332b1fb205f03d826e0f0470241e4406d9d3d12ad836a47837df798"
+        }
+      ]
+    }
+  ],
+  "figure_data": {
+    "tables": [
+      {
+        "file": "fig1_screening_curve.csv",
+        "rows": 500,
+        "columns": [
+          "I_M",
+          "lambda_D_nm",
+          "ion_diameter_nm",
+          "I_crossover_M",
+          "temperature_K",
+          "relative_permittivity"
+        ],
+        "sha256": "745d582b2a885cde93543321d2435ffa2fcb12084a3b8f23711105afbb58fb4d"
+      },
+      {
+        "file": "fig1_screening_ranges.csv",
+        "rows": 3,
+        "columns": [
+          "environment",
+          "lower_M",
+          "upper_M",
+          "basis"
+        ],
+        "sha256": "6d691ba2f09f3e40d31b50ae829006d57c5a3457654ee780786869633d863d3d"
+      },
+      {
+        "file": "fig2_sorption.csv",
+        "rows": 30,
+        "columns": [
+          "membrane",
+          "salt",
+          "c_ext",
+          "C_fixed",
+          "I_int",
+          "I_ext",
+          "density_kg_L",
+          "molality",
+          "gamma_external_molar",
+          "density_status",
+          "co_obs",
+          "co_sd",
+          "coion",
+          "z_co",
+          "z_counter",
+          "co_ideal",
+          "co_manning",
+          "r_ideal",
+          "r_manning",
+          "r_manning_lo",
+          "r_manning_hi",
+          "paired",
+          "published_closure_equal_alpha",
+          "r_paired",
+          "r_published_equal_alpha",
+          "source",
+          "measurement_reference"
+        ],
+        "sha256": "1cff0ad14070ec6339a64d7a89bf69d003b91c866f4b80bceea8e918b600e455"
+      },
+      {
+        "file": "fig3_residuals.csv",
+        "rows": 30,
+        "columns": [
+          "membrane",
+          "salt",
+          "c_ext",
+          "C_fixed",
+          "I_int",
+          "I_ext",
+          "density_kg_L",
+          "molality",
+          "gamma_external_molar",
+          "density_status",
+          "co_obs",
+          "co_sd",
+          "coion",
+          "z_co",
+          "z_counter",
+          "co_ideal",
+          "co_manning",
+          "r_ideal",
+          "r_manning",
+          "r_manning_lo",
+          "r_manning_hi",
+          "paired",
+          "published_closure_equal_alpha",
+          "r_paired",
+          "r_published_equal_alpha",
+          "source",
+          "measurement_reference"
+        ],
+        "sha256": "1cff0ad14070ec6339a64d7a89bf69d003b91c866f4b80bceea8e918b600e455"
+      },
+      {
+        "file": "fig3_series_means.csv",
+        "rows": 6,
+        "columns": [
+          "membrane",
+          "salt",
+          "n",
+          "manning_mean",
+          "manning_min",
+          "manning_max",
+          "conditional_mean",
+          "conditional_min",
+          "conditional_max",
+          "published_mean",
+          "published_min",
+          "published_max"
+        ],
+        "sha256": "585d812c65c20ac7c8f327baf58721dbf3fae38e0d211b5b632e855e4f468700"
+      },
+      {
+        "file": "fig4_identifiability.csv",
+        "rows": 5,
+        "columns": [
+          "panel",
+          "prospective_independent_counterions",
+          "n_measurements",
+          "rank_without_mu",
+          "rank_with_mu",
+          "cond_without_mu",
+          "cond_with_mu",
+          "counter_ion_valence_contrast",
+          "full_design_rank",
+          "full_design_columns",
+          "variance_added_rank",
+          "psi2_identifiable_given_baseline_error",
+          "power_baseline_exact",
+          "power_baseline_uncertain",
+          "variance_df_exact",
+          "variance_df_uncertain",
+          "residual_df_uncertain",
+          "I_min_external_M",
+          "I_max_external_M",
+          "sigma_log_residual",
+          "n_I",
+          "n_trials",
+          "seed",
+          "note",
+          "power_exact_ci_low",
+          "power_exact_ci_high",
+          "power_uncertain_ci_low",
+          "power_uncertain_ci_high"
+        ],
+        "sha256": "f41a0129ccc732434d01d5133755d7637505f367deb360ee30fef98db1455eca"
+      },
+      {
+        "file": "fig5_apparent_charge.csv",
+        "rows": 30,
+        "columns": [
+          "membrane",
+          "salt",
+          "c_ext",
+          "C_fixed",
+          "C_apparent",
+          "admissible_negative_membrane",
+          "charge_underestimate_factor"
+        ],
+        "sha256": "ceb166d64ced1c8935e7d4095fd5d91453beba33e1a0ddd9ebcc55e38d0bb7e9"
+      },
+      {
+        "file": "fig5_transferability.csv",
+        "rows": 5,
+        "columns": [
+          "c_ext",
+          "obs",
+          "ideal_transferred",
+          "manning_measured",
+          "r_transferred",
+          "r_manning",
+          "calibration_C_apparent",
+          "calibration_C_fixed",
+          "calibration_feed_M",
+          "co_sd"
+        ],
+        "sha256": "f5793e3042eaaad017692f8dd9635e4daa5b6f1446912af712dcd851434a5f07"
+      },
+      {
+        "file": "fig5_exchange_curves.csv",
+        "rows": 2700,
+        "columns": [
+          "xi",
+          "y",
+          "coion_to_fixed_charge",
+          "K_ex",
+          "alpha",
+          "alpha_asymptote",
+          "q",
+          "Gamma_f"
+        ],
+        "sha256": "bc9ddd02c19ba64c83a6b5bfa402c1ca2fd7946c117a470bce573f0b785c0748"
+      }
+    ],
+    "input_sha256": {
+      "results/activity_basis.csv": "891a82e2055654cbf97643a267ff0cfa99d182f39ff5522dd82543385abbbbea",
+      "results/apparent_fixed_charge.csv": "2e88fc9238ffb5eaf1d5dac52d0615bccdcd82e96f3ae5d988b985e9fbe39778",
+      "results/cumulant_check.csv": "457b944c61999a60ec8f80f0ab5a93a0ca810cf952b95b24c65cd54ad1de5f74",
+      "results/dle_like_valence.csv": "ad1a165f9d0580d07cf8ae31dc45d5ac90b6cb33b3d8a5539294358c9552dfa6",
+      "results/dle_transferability.csv": "a005d665d1ecd39fae2f2172692b70dc711f10cabf7c514c666ed16e72b78f6e",
+      "results/identifiability.csv": "0eec8995eb7d398daca7e52a400782821dde43ca91b19114510e7a9682e56963",
+      "results/interior_ionic_strength.csv": "24be98c1aa1343c9b47e62369b4384b0513e9bb42d56f26cca915c06e2ca1aed",
+      "results/ion_pairing.csv": "c0d52d18e701ce4cd7cd79ec6c1309b826a8f2effcc6b81a57ec5b4df83b463c",
+      "results/ion_specific_curves.csv": "a0a79f384bfbe727a2f898cebec7aeb22dc207836dbb68902998fe343f451f0b",
+      "results/ion_specific_finite_bath.csv": "ce97ea225821907a29ff1d46d6d3b1e01d2f226a4d21ea940991486a7e1b0f10",
+      "results/ion_specific_requirements.csv": "799ce938f1894cdd8c74331d497eb1dd9c9944b1c1ab40a38e655748ed174026",
+      "results/partitioning.csv": "c0f346a5f950ac239e14818d3e5ab89a80126976457f4dfe405f5dae1c925267",
+      "results/series_summary.csv": "f7c2bf8ee072c79ca921bbd90b8b8bf843c86406445f1dc649c41b507d686d26",
+      "results/validation.csv": "954eb33da1666111728065089214b54d3c34633d2fa1bbc5e31c5a81431a6382"
+    },
+    "sorption_lines": "straight connections of calculated points; no fitted smoothing",
+    "measurement_error_bars": "reported co-ion standard deviations only",
+    "residual_range_bars": "min-to-max of five concentration-dependent residuals for each model; not statistical uncertainty",
+    "power_error_bars": "95% Wilson intervals for Monte Carlo proportions",
+    "screening_curve": "dilute Debye reference, not a measured membrane decay length",
+    "lithium_curves": "conditional reservoir illustration, no lithium validation"
+  }
+}

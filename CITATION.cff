@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite the source measurements and this software when reusing the calculations."
+type: software
+title: "Donnan membrane partitioning: reproducible equilibrium and selectivity calculations"
+version: 0.4.0
+date-released: 2026-10-07
+authors:
+  - family-names: Tantardini
+    given-names: Christian
+    affiliation: "Center for Integrative Petroleum Research, KFUPM"
+  - family-names: Andersson
+    given-names: Martin
+    affiliation: "Center for Integrative Petroleum Research, KFUPM"
+abstract: "Equilibrium sorption analysis, activity and association closures, fixed-charge transferability, mechanism identifiability and conditional lithium/sodium exchange illustrations."
+keywords:
+  - Donnan equilibrium
+  - ion-exchange membranes
+  - counter-ion condensation
+  - ion association
+  - reproducibility

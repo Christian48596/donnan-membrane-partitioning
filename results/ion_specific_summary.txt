@@ -1,0 +1,9 @@
+CONDITIONAL Li/Na EXCHANGE ILLUSTRATIONS (no lithium validation)
+q=Gamma_f=1, reservoir y is fixed, condensed capacity theta*C_A.
+alpha_inf=1+w/[y(1-w)], w=theta*C_A/(C_A+c_coion).
+xi=1.83: equimolar/negligible-coion asymptote 2.66; y=.01 asymptote 84; equimolar, c_coion/C_A=.5 asymptote 1.87.
+xi=3.1: equimolar/negligible-coion asymptote 5.2; y=.01 asymptote 211; equimolar, c_coion/C_A=.5 asymptote 2.65.
+Nafion xi=3.1, y=.5, no coions, target 2: DeltaG_ex^standard=-2.671 kJ/mol.
+Nafion xi=3.1, y=.5, no coions, target 3: DeltaG_ex^standard=-4.692 kJ/mol.
+Nafion xi=3.1, y=.5, no coions, target 5: DeltaG_ex^standard=-11.969 kJ/mol.
+These are hypothesis-dependent reservoir limits, not universal membrane ceilings.

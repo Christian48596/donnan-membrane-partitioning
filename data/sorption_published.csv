@@ -1,0 +1,38 @@
+# Equilibrium sorption in negatively charged membranes at 298.15 K.
+# Source values are transcribed from tables, with reported standard deviations.
+# NaCl/MgCl2: Sujanani et al. (2021), DOI 10.1016/j.memsci.2021.119687.
+# Na2SO4/MgSO4: Sujanani et al. (2023), SI S3/S4/S7/S8, DOI 10.1021/acs.jpcb.2c07900.
+# External concentration: mol/L of solution. Membrane concentrations: mol/L of sorbed water.
+# C_fixed_M is derived from source ion balances; z_coion is the positive charge magnitude.
+# Sulfate uptake is analytical total sulfate, including pairs.
+membrane,salt_system,c_external_M,C_fixed_M,c_coion_M,c_coion_sd,coion,z_coion,source
+Nafion117,NaCl,0.01,3.95977,0.00023,1.3e-05,Cl-,1,Sujanani 2021 JMS 638 119687
+Nafion117,NaCl,0.03,4.2088,0.0012,5.62e-05,Cl-,1,Sujanani 2021 JMS 638 119687
+Nafion117,NaCl,0.1,4.2584,0.0116,0.00045,Cl-,1,Sujanani 2021 JMS 638 119687
+Nafion117,NaCl,0.3,4.0243,0.0857,0.00565,Cl-,1,Sujanani 2021 JMS 638 119687
+Nafion117,NaCl,1.0,4.589,0.351,0.0125,Cl-,1,Sujanani 2021 JMS 638 119687
+Nafion117,MgCl2,0.01,3.93813,0.00187,4.99e-05,Cl-,1,Sujanani 2021 JMS 638 119687
+Nafion117,MgCl2,0.03,3.85284,0.00716,0.000361,Cl-,1,Sujanani 2021 JMS 638 119687
+Nafion117,MgCl2,0.1,4.0482000000000005,0.0318,0.00201,Cl-,1,Sujanani 2021 JMS 638 119687
+Nafion117,MgCl2,0.3,4.074,0.106,0.00415,Cl-,1,Sujanani 2021 JMS 638 119687
+Nafion117,MgCl2,1.0,4.6850000000000005,0.435,0.0114,Cl-,1,Sujanani 2021 JMS 638 119687
+Nafion117,Na2SO4,0.01,3.8498362,8.19e-05,1e-05,SO4-2,2,"Sujanani 2023 JPCB 127 1842, SI Tables S3,S4,S7,S8"
+Nafion117,Na2SO4,0.03,3.858454,0.000773,6.97e-05,SO4-2,2,"Sujanani 2023 JPCB 127 1842, SI Tables S3,S4,S7,S8"
+Nafion117,Na2SO4,0.1,4.1794,0.0103,0.000491,SO4-2,2,"Sujanani 2023 JPCB 127 1842, SI Tables S3,S4,S7,S8"
+Nafion117,Na2SO4,0.3,4.3556,0.0822,0.00322,SO4-2,2,"Sujanani 2023 JPCB 127 1842, SI Tables S3,S4,S7,S8"
+Nafion117,Na2SO4,1.0,4.662,0.424,0.0229,SO4-2,2,"Sujanani 2023 JPCB 127 1842, SI Tables S3,S4,S7,S8"
+CR-61,Na2SO4,0.01,3.1891819999999997,0.000409,1.59e-05,SO4-2,2,"Sujanani 2023 JPCB 127 1842, SI Tables S3,S4,S7,S8"
+CR-61,Na2SO4,0.03,3.36648,0.00176,0.000134,SO4-2,2,"Sujanani 2023 JPCB 127 1842, SI Tables S3,S4,S7,S8"
+CR-61,Na2SO4,0.1,3.299,0.0105,0.000223,SO4-2,2,"Sujanani 2023 JPCB 127 1842, SI Tables S3,S4,S7,S8"
+CR-61,Na2SO4,0.3,3.274,0.063,0.00113,SO4-2,2,"Sujanani 2023 JPCB 127 1842, SI Tables S3,S4,S7,S8"
+CR-61,Na2SO4,1.0,3.5860000000000003,0.372,0.00377,SO4-2,2,"Sujanani 2023 JPCB 127 1842, SI Tables S3,S4,S7,S8"
+Nafion117,MgSO4,0.01,3.7131000000000003,0.00345,9.31e-05,SO4-2,2,"Sujanani 2023 JPCB 127 1842, SI Tables S3,S4,S7,S8"
+Nafion117,MgSO4,0.03,3.8922,0.0139,0.000667,SO4-2,2,"Sujanani 2023 JPCB 127 1842, SI Tables S3,S4,S7,S8"
+Nafion117,MgSO4,0.1,3.7922,0.0539,0.00204,SO4-2,2,"Sujanani 2023 JPCB 127 1842, SI Tables S3,S4,S7,S8"
+Nafion117,MgSO4,0.3,3.882,0.159,0.00411,SO4-2,2,"Sujanani 2023 JPCB 127 1842, SI Tables S3,S4,S7,S8"
+Nafion117,MgSO4,1.0,4.052,0.454,0.0231,SO4-2,2,"Sujanani 2023 JPCB 127 1842, SI Tables S3,S4,S7,S8"
+CR-61,MgSO4,0.01,3.5552,0.0024,0.0001,SO4-2,2,"Sujanani 2023 JPCB 127 1842, SI Tables S3,S4,S7,S8"
+CR-61,MgSO4,0.03,3.6,0.01,0.000338,SO4-2,2,"Sujanani 2023 JPCB 127 1842, SI Tables S3,S4,S7,S8"
+CR-61,MgSO4,0.1,3.5394,0.0403,0.00106,SO4-2,2,"Sujanani 2023 JPCB 127 1842, SI Tables S3,S4,S7,S8"
+CR-61,MgSO4,0.3,3.702,0.119,0.00243,SO4-2,2,"Sujanani 2023 JPCB 127 1842, SI Tables S3,S4,S7,S8"
+CR-61,MgSO4,1.0,3.716,0.372,0.0133,SO4-2,2,"Sujanani 2023 JPCB 127 1842, SI Tables S3,S4,S7,S8"

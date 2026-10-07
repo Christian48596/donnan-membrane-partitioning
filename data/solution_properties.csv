@@ -1,0 +1,34 @@
+# 298.15 K. SI: Sujanani et al. 2023, DOI 10.1021/acs.jpcb.2c07900.s001, Table S2.
+# Density unit g/cm3 equals kg/L. Association is conductivity-derived, not exact speciation.
+# MgCl2: rho=rho_water+c*(M-rho_water*V_phi), assuming constant V_phi=0.01977 L/mol.
+# V_phi anchor: Zezin et al. 2014, DOI 10.1021/je500371u.s001, Table 1S,
+# pure MgCl2, T=298.15 K, p=0.1 MPa, m=1.0003 mol/kg. Other concentrations
+# are a CONSTANT-APPARENT-VOLUME approximation, not density measurements.
+salt,c_external_M,density_kg_L,association_fraction,provenance
+MgSO4,0.001,0.9973,0.104,Sujanani2023_S2A
+MgSO4,0.005,0.9978,0.337,Sujanani2023_S2A
+MgSO4,0.010,0.9984,0.409,Sujanani2023_S2A
+MgSO4,0.030,1.001,0.479,Sujanani2023_S2A
+MgSO4,0.100,1.009,0.605,Sujanani2023_S2A
+MgSO4,0.300,1.033,0.657,Sujanani2023_S2A
+MgSO4,0.499,1.053,0.690,Sujanani2023_S2A
+MgSO4,0.780,1.085,0.695,Sujanani2023_S2A
+MgSO4,1.000,1.111,0.688,Sujanani2023_S2A
+Na2SO4,0.004,0.998,0.159,Sujanani2023_S2B
+Na2SO4,0.009,0.998,0.272,Sujanani2023_S2B
+Na2SO4,0.023,1.000,0.377,Sujanani2023_S2B
+Na2SO4,0.045,1.003,0.455,Sujanani2023_S2B
+Na2SO4,0.091,1.009,0.532,Sujanani2023_S2B
+Na2SO4,0.231,1.026,0.679,Sujanani2023_S2B
+Na2SO4,0.473,1.055,0.741,Sujanani2023_S2B
+Na2SO4,0.730,1.086,0.779,Sujanani2023_S2B
+Na2SO4,1.000,1.115,0.783,Sujanani2023_S2B
+NaCl,0.010,0.998,0.048,Sujanani2023_S2C
+NaCl,0.030,0.998,0.076,Sujanani2023_S2C
+NaCl,0.100,1.001,0.128,Sujanani2023_S2C
+NaCl,0.300,1.010,0.174,Sujanani2023_S2C
+NaCl,1.000,1.037,0.271,Sujanani2023_S2C
+MgCl2,0.010,0.997802394,,Zezin2014_S1_constant_Vphi_approximation
+MgCl2,0.100,1.004597337,,Zezin2014_S1_constant_Vphi_approximation
+MgCl2,0.300,1.019697212,,Zezin2014_S1_constant_Vphi_approximation
+MgCl2,1.000,1.072546773,,Zezin2014_S1_constant_Vphi_approximation

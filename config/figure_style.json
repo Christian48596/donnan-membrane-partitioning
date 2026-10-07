@@ -1,0 +1,18 @@
+{
+  "double_column_mm": 171,
+  "single_column_mm": 83,
+  "font_family": "Nimbus Sans",
+  "axis_label_pt": 9,
+  "tick_pt": 9,
+  "legend_pt": 9,
+  "text_pt": 9,
+  "panel_label_pt": 11,
+  "minimum_text_pt": 9,
+  "raster_dpi": 600,
+  "formats": [
+    "pdf",
+    "svg",
+    "png",
+    "tif"
+  ]
+}

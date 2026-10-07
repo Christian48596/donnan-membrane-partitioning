@@ -1,0 +1,218 @@
+{
+  "tables": [
+    {
+      "file": "fig1_screening_curve.csv",
+      "rows": 500,
+      "columns": [
+        "I_M",
+        "lambda_D_nm",
+        "ion_diameter_nm",
+        "I_crossover_M",
+        "temperature_K",
+        "relative_permittivity"
+      ],
+      "sha256": "745d582b2a885cde93543321d2435ffa2fcb12084a3b8f23711105afbb58fb4d"
+    },
+    {
+      "file": "fig1_screening_ranges.csv",
+      "rows": 3,
+      "columns": [
+        "environment",
+        "lower_M",
+        "upper_M",
+        "basis"
+      ],
+      "sha256": "6d691ba2f09f3e40d31b50ae829006d57c5a3457654ee780786869633d863d3d"
+    },
+    {
+      "file": "fig2_sorption.csv",
+      "rows": 30,
+      "columns": [
+        "membrane",
+        "salt",
+        "c_ext",
+        "C_fixed",
+        "I_int",
+        "I_ext",
+        "density_kg_L",
+        "molality",
+        "gamma_external_molar",
+        "density_status",
+        "co_obs",
+        "co_sd",
+        "coion",
+        "z_co",
+        "z_counter",
+        "co_ideal",
+        "co_manning",
+        "r_ideal",
+        "r_manning",
+        "r_manning_lo",
+        "r_manning_hi",
+        "paired",
+        "published_closure_equal_alpha",
+        "r_paired",
+        "r_published_equal_alpha",
+        "source",
+        "measurement_reference"
+      ],
+      "sha256": "1cff0ad14070ec6339a64d7a89bf69d003b91c866f4b80bceea8e918b600e455"
+    },
+    {
+      "file": "fig3_residuals.csv",
+      "rows": 30,
+      "columns": [
+        "membrane",
+        "salt",
+        "c_ext",
+        "C_fixed",
+        "I_int",
+        "I_ext",
+        "density_kg_L",
+        "molality",
+        "gamma_external_molar",
+        "density_status",
+        "co_obs",
+        "co_sd",
+        "coion",
+        "z_co",
+        "z_counter",
+        "co_ideal",
+        "co_manning",
+        "r_ideal",
+        "r_manning",
+        "r_manning_lo",
+        "r_manning_hi",
+        "paired",
+        "published_closure_equal_alpha",
+        "r_paired",
+        "r_published_equal_alpha",
+        "source",
+        "measurement_reference"
+      ],
+      "sha256": "1cff0ad14070ec6339a64d7a89bf69d003b91c866f4b80bceea8e918b600e455"
+    },
+    {
+      "file": "fig3_series_means.csv",
+      "rows": 6,
+      "columns": [
+        "membrane",
+        "salt",
+        "n",
+        "manning_mean",
+        "manning_min",
+        "manning_max",
+        "conditional_mean",
+        "conditional_min",
+        "conditional_max",
+        "published_mean",
+        "published_min",
+        "published_max"
+      ],
+      "sha256": "585d812c65c20ac7c8f327baf58721dbf3fae38e0d211b5b632e855e4f468700"
+    },
+    {
+      "file": "fig4_identifiability.csv",
+      "rows": 5,
+      "columns": [
+        "panel",
+        "prospective_independent_counterions",
+        "n_measurements",
+        "rank_without_mu",
+        "rank_with_mu",
+        "cond_without_mu",
+        "cond_with_mu",
+        "counter_ion_valence_contrast",
+        "full_design_rank",
+        "full_design_columns",
+        "variance_added_rank",
+        "psi2_identifiable_given_baseline_error",
+        "power_baseline_exact",
+        "power_baseline_uncertain",
+        "variance_df_exact",
+        "variance_df_uncertain",
+        "residual_df_uncertain",
+        "I_min_external_M",
+        "I_max_external_M",
+        "sigma_log_residual",
+        "n_I",
+        "n_trials",
+        "seed",
+        "note",
+        "power_exact_ci_low",
+        "power_exact_ci_high",
+        "power_uncertain_ci_low",
+        "power_uncertain_ci_high"
+      ],
+      "sha256": "f41a0129ccc732434d01d5133755d7637505f367deb360ee30fef98db1455eca"
+    },
+    {
+      "file": "fig5_apparent_charge.csv",
+      "rows": 30,
+      "columns": [
+        "membrane",
+        "salt",
+        "c_ext",
+        "C_fixed",
+        "C_apparent",
+        "admissible_negative_membrane",
+        "charge_underestimate_factor"
+      ],
+      "sha256": "ceb166d64ced1c8935e7d4095fd5d91453beba33e1a0ddd9ebcc55e38d0bb7e9"
+    },
+    {
+      "file": "fig5_transferability.csv",
+      "rows": 5,
+      "columns": [
+        "c_ext",
+        "obs",
+        "ideal_transferred",
+        "manning_measured",
+        "r_transferred",
+        "r_manning",
+        "calibration_C_apparent",
+        "calibration_C_fixed",
+        "calibration_feed_M",
+        "co_sd"
+      ],
+      "sha256": "f5793e3042eaaad017692f8dd9635e4daa5b6f1446912af712dcd851434a5f07"
+    },
+    {
+      "file": "fig5_exchange_curves.csv",
+      "rows": 2700,
+      "columns": [
+        "xi",
+        "y",
+        "coion_to_fixed_charge",
+        "K_ex",
+        "alpha",
+        "alpha_asymptote",
+        "q",
+        "Gamma_f"
+      ],
+      "sha256": "bc9ddd02c19ba64c83a6b5bfa402c1ca2fd7946c117a470bce573f0b785c0748"
+    }
+  ],
+  "input_sha256": {
+    "results/activity_basis.csv": "891a82e2055654cbf97643a267ff0cfa99d182f39ff5522dd82543385abbbbea",
+    "results/apparent_fixed_charge.csv": "2e88fc9238ffb5eaf1d5dac52d0615bccdcd82e96f3ae5d988b985e9fbe39778",
+    "results/cumulant_check.csv": "457b944c61999a60ec8f80f0ab5a93a0ca810cf952b95b24c65cd54ad1de5f74",
+    "results/dle_like_valence.csv": "ad1a165f9d0580d07cf8ae31dc45d5ac90b6cb33b3d8a5539294358c9552dfa6",
+    "results/dle_transferability.csv": "a005d665d1ecd39fae2f2172692b70dc711f10cabf7c514c666ed16e72b78f6e",
+    "results/identifiability.csv": "0eec8995eb7d398daca7e52a400782821dde43ca91b19114510e7a9682e56963",
+    "results/interior_ionic_strength.csv": "24be98c1aa1343c9b47e62369b4384b0513e9bb42d56f26cca915c06e2ca1aed",
+    "results/ion_pairing.csv": "c0d52d18e701ce4cd7cd79ec6c1309b826a8f2effcc6b81a57ec5b4df83b463c",
+    "results/ion_specific_curves.csv": "a0a79f384bfbe727a2f898cebec7aeb22dc207836dbb68902998fe343f451f0b",
+    "results/ion_specific_finite_bath.csv": "ce97ea225821907a29ff1d46d6d3b1e01d2f226a4d21ea940991486a7e1b0f10",
+    "results/ion_specific_requirements.csv": "799ce938f1894cdd8c74331d497eb1dd9c9944b1c1ab40a38e655748ed174026",
+    "results/partitioning.csv": "c0f346a5f950ac239e14818d3e5ab89a80126976457f4dfe405f5dae1c925267",
+    "results/series_summary.csv": "f7c2bf8ee072c79ca921bbd90b8b8bf843c86406445f1dc649c41b507d686d26",
+    "results/validation.csv": "954eb33da1666111728065089214b54d3c34633d2fa1bbc5e31c5a81431a6382"
+  },
+  "sorption_lines": "straight connections of calculated points; no fitted smoothing",
+  "measurement_error_bars": "reported co-ion standard deviations only",
+  "residual_range_bars": "min-to-max of five concentration-dependent residuals for each model; not statistical uncertainty",
+  "power_error_bars": "95% Wilson intervals for Monte Carlo proportions",
+  "screening_curve": "dilute Debye reference, not a measured membrane decay length",
+  "lithium_curves": "conditional reservoir illustration, no lithium validation"
+}

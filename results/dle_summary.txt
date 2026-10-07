@@ -1,0 +1,11 @@
+FIXED-CHARGE TRANSFERABILITY AND Li/Na LIMITATION
+========================================================================
+Reference NaCl 0.01 M: measured charge 3.95977 M, apparent ideal-membrane charge 0.35337 M.
+Underestimate factor 11.2058.
+MgCl2 transferred ideal mean log residual -0.61483; Manning with measured charge -0.66495.
+Apparent charge range -0.89475 to 8.163 M; 10 of 30 fits require opposite-sign charge.
+Negative apparent charges are inadmissible for the negatively charged membrane.
+
+Same-charge Donnan factors cancel: alpha_Li/Na equals the ratio of transfer
+and activity prefactors. A charge-only model with equal prefactors gives 1.
+Li/Na equilibrium selectivity is the ratio of counter-ion partition coefficients.

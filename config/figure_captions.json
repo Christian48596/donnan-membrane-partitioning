@@ -1,0 +1,29 @@
+[
+  {
+    "stem": "fig1_screening_regimes",
+    "label": "screening",
+    "single_column": true,
+    "caption": "Dilute Debye screening reference for water at 298.15 K, compared with an assumed ion diameter $d=\\SI{0.30}{\\nano\\metre}$. The grey region, labelled \\textit{Below ion size}, denotes $\\lambda_{\\mathrm D}<d$: the extrapolated dilute-solution screening length is smaller than the assumed ion diameter. The crossing occurs at $I^*=\\SI{1.03}{\\mol\\per\\litre}$. This comparison is a molecular-scale diagnostic, not a measurement of membrane correlation lengths or evidence of a failure of thermodynamic Donnan equilibrium."
+  },
+  {
+    "stem": "fig2_coion_sorption",
+    "label": "sorption",
+    "caption": "Measured chloride or total sulfate uptake (open circles), with reported standard deviations, compared with four activity/speciation treatments. Chloride data in (a,b) are from Sujanani \\textit{et al.} (2021) \\citep{Sujanani2021Nafion}; total sulfate data in (c--f) are from Sujanani \\textit{et al.} (2023) \\citep{Sujanani2023IonPairing}. Panel legends identify the membrane, salt and source. The sulfate axes report total analytical uptake, including ion pairs. Green curves evaluate the weighted closure in the 2023 supporting-information equations S57/S70 at $\\alpha^{\\mathrm m}=\\alpha^{\\mathrm s}$; they do not reproduce the authors' fitted membrane association fractions. Conditional species equilibrium assumes unit partitioning for neutral \\chem{MgSO_4}. Lines connect predictions at five tabulated concentrations. $C_s^{\\mathrm s}$ is the external analytical salt concentration; membrane uptake is per litre of sorbed water."
+  },
+  {
+    "stem": "fig3_residuals",
+    "label": "residuals",
+    "caption": "Natural-log uptake residuals for (a) ideal membrane activities and (b) Manning--Donnan activities, on identical axis scales. The shared legend identifies the complete membrane--salt series: filled markers and solid lines denote Nafion~117; open markers and dashed lines denote CR-61. (c) Series means for Manning--Donnan, conditional species equilibrium and the weighted closure of Sujanani \\textit{et al.} (2023) \\citep{Sujanani2023IonPairing}, evaluated with $\\alpha^{\\mathrm m}=\\alpha^{\\mathrm s}$. For every model shown, whiskers span the minimum and maximum residual across the same five external concentrations. They are concentration-dependent ranges, not standard deviations or confidence intervals. The three model means occupy separate, vertically offset positions within each labelled membrane--salt row. Chloride series have no association-model entries. Here $r=\\ln(C_{\\mathrm{obs}}/C_{\\mathrm{pred}})$, $I^{\\mathrm s}$ is the fully dissociated external ionic-strength reference, and $\\bar r$ is the arithmetic mean of five residuals. Analytical sulfate residuals refer to total sulfate uptake. Residuals are dimensionless."
+  },
+  {
+    "stem": "fig4_identifiability",
+    "label": "identifiability",
+    "single_column": true,
+    "caption": "Prospective detection probabilities for a candidate potential-variance contribution, using hypothetical independent counter-ion and co-ion measurements on five matched external ionic strengths. The three-salt panel comprises \\chem{NaCl}, \\chem{MgCl_2} and \\chem{Na_2SO_4}; the fourth salt is \\chem{MgSO_4}. Blue bars assume the baseline activity/speciation response is known exactly; orange bars include the nuisance-response uncertainty specified in the model. Simulations use logarithmic noise standard deviation $\\sigma_r=0.10$ and 1500 trials per design. Whiskers are 95\\% Wilson intervals for the simulated detection proportions. These prospective intervals do not quantify uncertainty in a mechanism inferred from the present sorption data."
+  },
+  {
+    "stem": "fig5_dle",
+    "label": "lithium",
+    "caption": "(a) Signed ideal-model apparent charge versus the charge-balance reference, with a symmetric logarithmic vertical scale. The legend identifies each complete membrane--salt pair. Filled markers denote Nafion~117; open markers denote CR-61. The dashed line is the identity. Grey shading, labelled \\textit{Negative apparent charge}, marks $C_{A,\\mathrm{app}}<0$. These retained inversions require the opposite fixed-charge sign. (b) Transferring the apparent charge calibrated at the Nafion \\chem{NaCl} reference condition to the \\chem{MgCl_2} series. Open circles show measured chloride uptake from Sujanani \\textit{et al.} (2021) \\citep{Sujanani2021Nafion}, with reported standard deviations. Manning predictions use the charge-balance reference. (c) Conditional lithium/sodium exchange selectivity for reservoir lithium fractions $y=0.5$, 0.1 and 0.01, with negligible co-ion uptake. (d) Dependence on co-ion uptake at $y=0.5$. Panels (c,d) use $\\xi=3.1$, $q=\\Gamma_f=1$, ideal condensed mixing and fixed capacity $\\theta C_A^{\\mathrm m}$. Dashed curves mark the corresponding conditional reservoir asymptotes $\\alpha_\\infty$. No lithium measurements are used. $\\alpha$ is the membrane lithium/sodium concentration ratio divided by the reservoir ratio; $c_-^{\\mathrm m}/C_A^{\\mathrm m}$ is the monovalent co-ion concentration divided by fixed-charge concentration. Concentrations in (a,b) are per litre of sorbed water, except for the external analytical salt concentration $C_s^{\\mathrm s}$ in (b). All charge quantities refer to the membrane phase. Exchange constants and selectivities are dimensionless."
+  }
+]

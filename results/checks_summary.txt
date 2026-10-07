@@ -1,0 +1,10 @@
+APPROXIMATION CHECKS (illustrative potential profile)
+ z_psi_surface  ln_K_exact  ln_K_second_cumulant  relative_error_percent
+           1.0    0.078620              0.081966                4.255643
+           2.0    0.322863              0.355210               10.018801
+           4.0    1.168836              1.475534               26.239579
+           6.0    2.295169              3.360970               46.436679
+           8.0    3.560859              6.011519               68.822150
+Full molality-to-concentration conversion includes standard-state rescaling.
+Largest absolute log salt-product shift, argument only: 0.034484.
+Largest absolute shift, full conversion: 0.093307.
